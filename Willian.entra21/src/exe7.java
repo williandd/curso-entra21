@@ -7,7 +7,7 @@ public class exe7 {
         int vf  = oi.nextInt();
         int pd = 28;
         int impostos = 45;
-        System.out.printf("O valor total do carro é: %d" , (vf * pd)/100 +vf + (vf * impostos)/100 +vf);
+        System.out.printf("O valor total do carro é: R$%d" , (vf * pd)/100 +vf + (vf * impostos)/100 +vf);
 
 
     }
