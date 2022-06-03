@@ -1,7 +1,7 @@
-package classes;
+package classes.lanches;
 
-public class hotdog extends Sanduiche {
-    public hotdog() {
+public class Hotdog extends Sanduiche {
+    public Hotdog() {
         this.adicionarIngrediente("Pão");
         this.adicionarIngrediente("Salsicha");
         this.adicionarIngrediente("Batata palha");

@@ -1,21 +1,25 @@
-package classes;
+package classes.lanches;
+
+import classes.lanches.Sanduiche;
 
 public class XBurguer extends Sanduiche {
-    public boolean aberto;
+    private boolean aberto;
     public XBurguer() {
         this.adicionarIngrediente("Hamburguer");
         this.adicionarIngrediente("Presunto");
         this.adicionarIngrediente("Queijo");
         this.adicionarIngrediente("Pão");
-        this.tipo = "XBurguer";
+        this.setTipo("XBurguer");
     }
 
-    @Override
-    public void montarComanda() {
-        super.montarComanda();
-        if (this.aberto) {
-            System.out.println("-- LANCHE ABERTO --");
-        }
+    public boolean isAberto() {
+        return aberto;
     }
+
+    public void setAberto(boolean aberto) {
+        this.aberto = aberto;
+    }
+
+
 }
 

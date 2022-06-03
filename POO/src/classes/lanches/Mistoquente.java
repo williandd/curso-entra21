@@ -1,7 +1,7 @@
-package classes;
+package classes.lanches;
 
-public class mistoquente extends Sanduiche{
-    public mistoquente(){
+public class Mistoquente extends Sanduiche{
+    public Mistoquente(){
         this.adicionarIngrediente("Presunto");
         this.adicionarIngrediente("Queijo");
         this.adicionarIngrediente("Pão");
