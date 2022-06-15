@@ -58,4 +58,9 @@ public class Minipizza extends Lanche {
     public String getSabor(){
         return this.sabor;
     }
+
+    @Override
+    public void mostrarDetalhesComanda() {
+
+    }
 }
